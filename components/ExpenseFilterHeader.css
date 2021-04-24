@@ -1,0 +1,21 @@
+
+.ExpenseFilter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.ExpenseFilter >h2{
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-left: 2px;
+
+}
+
+.ExpenseFilter>form{
+    font-size: 1.4rem;
+    margin-top: 6px;
+    margin-right: 4px;
+}
