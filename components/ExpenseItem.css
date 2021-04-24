@@ -1,0 +1,98 @@
+
+.expense-item{
+    width: 99%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: gray;
+    border-radius: 1rem;
+    margin: 1rem 0.2rem 0rem 0.2rem;
+    /*border: 1px solid white;*/
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.expense-item__date{
+    width: 20%;
+    height: 80%;
+    font-family: "Apple Braille";
+    font-size: inherit;
+    display: block;
+    background-color: #282c34;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    text-align: center;
+    color: #cccccc;
+    padding: 2px;
+}
+.month{
+    font-size: 0.8rem;
+    color: white;
+}
+.year{
+    font-size: 0.7rem;
+}
+.date{
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+.expense-item>div{
+    margin: 0.5rem 2rem 0.5rem 2rem;
+    /*border: 2px solid red;*/
+}
+
+.expense-item__description{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: "Apple Braille";
+    /*border: 1px solid white;*/
+
+}
+
+.expense-item__price{
+    width: 15%;
+    max-width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color: indigo;
+    font-family: "Apple Braille";
+    color: white;
+    font-size: inherit;
+    font-weight: 700;
+    text-align: center;
+}
+
+.expense-item__del{
+    width: 25px;
+    color: red;
+    height: 15px;
+    background-color: #282c34;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    font-size: inherit;
+    display: block;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    padding: 0px;
+    margin-right: -3px;
+    margin-top: -3.4rem;
+    background-image: url('./image/close.png');
+}
+
+.expense-item__del>p{
+    margin-top: -0.75rem;
+    position: relative;
+    display: block;
+}
